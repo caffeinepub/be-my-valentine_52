@@ -1,0 +1,50 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-14T07:24:31.466Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 2,
+    "implemented": 2,
+    "items": [
+      {
+        "id": "REQ-5",
+        "summary": "Update the proposal question text on the Valentine proposal card to match the provided HTML: show the recipient name as \"Hina\" followed by a comma, then a line break, then the text \"will you be my Valentine?\".",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/ValentineProposalPage.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/ValentineProposalPage.tsx"
+        ]
+      },
+      {
+        "id": "REQ-6",
+        "summary": "Set the browser tab title to exactly \"Be My Valentine 💘\" to match the provided HTML title.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/index.html"
+        ],
+        "matchedFiles": [
+          "frontend/index.html"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/index.html",
+    "frontend/src/pages/ValentineProposalPage.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

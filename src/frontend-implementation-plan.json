@@ -1,0 +1,36 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Personalize Valentine proposal text and HTML page title",
+  "requirements": [
+    {
+      "id": "REQ-5",
+      "summary": "Update the proposal card headline to show “Hina,” on the first line and “will you be my Valentine?” on the second line.",
+      "acceptanceCriteria": [
+        "The card headline renders exactly as two lines: \"Hina,\" on the first line and \"will you be my Valentine?\" on the second line.",
+        "No other user-facing text is changed as part of this requirement."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/ValentineProposalPage.tsx",
+          "operation": "modify",
+          "description": "Change the proposal <h2> headline content from the current recipient name to exactly: \"Hina,\" followed by a line break and then \"will you be my Valentine?\" (preserve existing <br /> and do not alter other visible strings)."
+        }
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "summary": "Set the browser tab title to exactly “Be My Valentine 💘”.",
+      "acceptanceCriteria": [
+        "The document/page title shown in the browser tab is exactly \"Be My Valentine 💘\"."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update the <title> tag text to exactly \"Be My Valentine 💘\" (including the emoji) to match the provided HTML title."
+        }
+      ]
+    }
+  ]
+}

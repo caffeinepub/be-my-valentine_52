@@ -1,0 +1,19 @@
+{
+  "backend/main.mo": "Empty Motoko actor placeholder.",
+  "feature_evidence.json": "Feature evidence listing required UI updates and associated files.",
+  "frontend-file-summaries.txt": "Prewritten summaries for key frontend files and components.",
+  "frontend/index.css": "Global Tailwind-based styling and theme variables for light and dark modes.",
+  "frontend/index.html": "HTML entry point with root container and Valentine-themed title.",
+  "frontend/src/App.tsx": "App component that renders the ValentineProposalPage.",
+  "frontend/src/components/FloatingHearts.tsx": "Component spawning animated floating heart emojis at random positions.",
+  "frontend/src/hooks/useActor.ts": "Hook that creates and manages a backend actor tied to the user’s identity.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Context and provider managing Internet Identity auth and login state.",
+  "frontend/src/hooks/useNoButtonDodge.ts": "Hook that moves the No button to random positions on interaction.",
+  "frontend/src/hooks/useSoundEffects.ts": "Hook loading and playing hover and success sound effects.",
+  "frontend/src/index.css": "Extended global styles including fonts, gradients, glass effects, and Valentine theme.",
+  "frontend/src/lib/confettiLoader.ts": "Utility that loads the confetti script and triggers confetti bursts.",
+  "frontend/src/main.tsx": "React entry point initializing providers and rendering App.",
+  "frontend/src/pages/ValentineProposalPage.tsx": "React page showing a Valentine card with Yes/No buttons, dodging behavior, sound effects, confetti, and a success dialog.",
+  "frontend/tailwind.config.js": "Tailwind config extending colors, fonts, animations, and Valentine theme utilities with plugins and container settings.",
+  "project_state.json": "Metadata describing project goals, features, and state for a Valentine-themed interactive single‑page app."
+}

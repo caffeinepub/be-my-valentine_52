@@ -1,0 +1,53 @@
+{
+  "kind": "build_request",
+  "title": "Personalize Valentine proposal text for Hina and match HTML title",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-5",
+      "text": "Update the proposal question text on the Valentine proposal card to match the provided HTML: show the recipient name as \"Hina\" followed by a comma, then a line break, then the text \"will you be my Valentine?\".",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "<h2>hina ,<br>will you be my Valentine?</h2>"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The card headline renders exactly as two lines: \"Hina,\" on the first line and \"will you be my Valentine?\" on the second line.",
+        "No other user-facing text is changed as part of this requirement."
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Set the browser tab title to exactly \"Be My Valentine 💘\" to match the provided HTML title.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "<title>Be My Valentine 💘</title>"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The document/page title shown in the browser tab is exactly \"Be My Valentine 💘\"."
+      ]
+    }
+  ],
+  "constraints": [
+    "Frontend code must not modify any files under frontend/src/components/ui or any paths listed in frontend.immutablePaths.",
+    "Backend must remain a single Motoko actor in backend/main.mo; do not add additional canisters."
+  ],
+  "nonGoals": [
+    "Adding new screens or flows beyond updating the displayed recipient name and the page title.",
+    "Changing confetti behavior, sound effect URLs, button dodge behavior, or floating hearts behavior (these are already implemented).",
+    "Adding backend persistence or user accounts."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

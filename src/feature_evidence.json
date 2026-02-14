@@ -1,0 +1,41 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-proposal-question-text-on-the-valentine-proposal-card-to-match-the-provided-html-show-the-recipient-name-as-hina-followed-by-a-comma-then-a-line-break-then-the-text-will-you-be-my-valentine",
+      "featureTitle": "Update the proposal question text on the Valentine proposal card to match the provided HTML: show the recipient name as \"Hina\" followed by a comma, then a line break, then the text \"will you be my Valentine?\".",
+      "files": [
+        "frontend/src/pages/ValentineProposalPage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-set-the-browser-tab-title-to-exactly-be-my-valentine-to-match-the-provided-html-title",
+      "featureTitle": "Set the browser tab title to exactly \"Be My Valentine 💘\" to match the provided HTML title.",
+      "files": [
+        "frontend/index.html"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

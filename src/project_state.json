@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Build a single-page interactive \"Be My Valentine\" web page with animated gradient background, glassmorphism card UI, playful Yes/No buttons (No dodges), confetti + alert on Yes, floating hearts, and sound effects; personalized question text (e.g., \"hina, will you be my Valentine?\").",
+  "architectural_notes": [
+    "Static single-page app using vanilla HTML/CSS/JS (no framework).",
+    "Uses external CDNs/assets: Google Fonts (Playfair Display, Poppins), canvas-confetti (cdn.jsdelivr.net), and audio files from assets.mixkit.co."
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-single-page-valentine-proposal-ui-that-matches-the-provided-html-css-js-experience-an-animated-multi-color-gradient-background-a-centered-glassmorphism-card-with-a-glowing-gradient-ring-a-cat-heart-emoji-header-the-question-text-aditi-will-you-be-my-valentine-and-a-small-italic-hint-line",
+      "title": "Create a single-page Valentine proposal UI that matches the provided HTML/CSS/JS experience: an animated multi-color gradient background; a centered glassmorphism card with a glowing gradient ring; a cat+heart emoji header; the question text \"Aditi, will you be my Valentine?\"; and a small italic hint line.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-interactive-yes-and-no-buttons-behavior-from-the-provided-script-the-no-button-should-dodge-by-moving-to-a-random-position-within-the-card-bounds-on-hover-and-an-equivalent-interaction-for-touch-devices-while-the-yes-button-triggers-a-confetti-burst-and-then-shows-a-confirmation-message",
+      "title": "Implement the interactive \"Yes\" and \"No\" buttons behavior from the provided script: the \"No\" button should dodge by moving to a random position within the card bounds on hover (and an equivalent interaction for touch devices), while the \"Yes\" button triggers a confetti burst and then shows a confirmation message.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-sound-effects-specified-in-the-provided-html-play-the-hover-sound-when-the-no-button-dodges-and-play-the-success-sound-when-yes-is-clicked-using-the-exact-audio-urls-provided",
+      "title": "Add the sound effects specified in the provided HTML: play the hover sound when the \"No\" button dodges, and play the success sound when \"Yes\" is clicked, using the exact audio URLs provided.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-floating-heart-particles-effect-across-the-page-background-continuously-spawning-hearts-that-float-upward-scale-slightly-and-fade-out-similar-to-the-provided-timing-and-styling",
+      "title": "Implement the floating heart particles effect across the page background, continuously spawning hearts that float upward, scale slightly, and fade out, similar to the provided timing and styling.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-proposal-question-text-on-the-valentine-proposal-card-to-match-the-provided-html-show-the-recipient-name-as-hina-followed-by-a-comma-then-a-line-break-then-the-text-will-you-be-my-valentine",
+      "title": "Update the proposal question text on the Valentine proposal card to match the provided HTML: show the recipient name as \"Hina\" followed by a comma, then a line break, then the text \"will you be my Valentine?\".",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-set-the-browser-tab-title-to-exactly-be-my-valentine-to-match-the-provided-html-title",
+      "title": "Set the browser tab title to exactly \"Be My Valentine 💘\" to match the provided HTML title.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create interactive Valentine proposal HTML page (animated gradient background, glass card, Yes/No buttons with No dodging, confetti + alert on Yes, floating hearts, hover/click sounds)",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Be My Valentine",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

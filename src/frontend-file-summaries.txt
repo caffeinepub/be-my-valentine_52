@@ -1,0 +1,11 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the ValentineProposalPage as the single-page experience.",
+  "frontend/src/pages/ValentineProposalPage.tsx": "Complete Valentine's Day proposal page with interactive Yes/No buttons, confetti effect, success dialog, and all animations, now personalized for \"Hina\" as the recipient.",
+  "frontend/src/components/FloatingHearts.tsx": "Background component that continuously spawns and animates floating heart emojis (❤️ and 💗) with randomized properties.",
+  "frontend/src/hooks/useNoButtonDodge.ts": "Custom hook that handles the \"No\" button dodge behavior by calculating and applying random positions within card bounds on hover/touch interactions, with proper nullable ref types.",
+  "frontend/src/hooks/useSoundEffects.ts": "Custom hook that manages audio playback for hover and success sounds with graceful error handling for autoplay restrictions.",
+  "frontend/src/lib/confettiLoader.ts": "Utility that dynamically loads the canvas-confetti library from CDN and provides a safe function to trigger confetti bursts with specified parameters.",
+  "frontend/src/index.css": "Global styles including Valentine's Day color theme, animated gradient background, glassmorphism card effects, custom animations (heartbeat, float-up, card-in), and responsive breakpoints.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with Valentine's Day color palette, Playfair Display and Poppins fonts, and custom animation utilities.",
+  "frontend/index.html": "HTML entry point with updated page title \"Be My Valentine 💘\" including the heart emoji."
+}
